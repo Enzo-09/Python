@@ -68,7 +68,7 @@ while True:
                     if line.split(", ")[0] == name:
                         print(line)
                         break
-        case "3":
+        case "3": #no funciona
             parametro = input("ingrese el parametro del producto que desea actualizar")
             if parametro == "nombre":
                 name = input("ingrese el nuevo nombre")
