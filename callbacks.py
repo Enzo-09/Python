@@ -51,3 +51,5 @@ def callback_entrega(plato: str):
 
 proceso_orden("fideos", callback_confirmacion, callback_listo, callback_entrega)
 proceso_orden("hamburguesas", callback_confirmacion, callback_listo, callback_entrega)
+
+
