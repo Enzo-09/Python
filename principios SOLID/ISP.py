@@ -8,8 +8,6 @@
 from abc import ABC, abstractmethod
 
 # Sin ISP
-
-
 class WorkerInterface(ABC):
 
     @abstractmethod
@@ -45,11 +43,9 @@ human.eat()
 
 robot = Robot()
 robot.work()
-robot.eat()  # error
+robot.eat()  # ERROR
 
 # Con ISP
-
-
 class WorkInterface(ABC):
 
     @abstractmethod
@@ -150,4 +146,4 @@ multifuncion = impresora_mutlifuncion()
 multifuncion.print("documento 3")
 multifuncion.print_color("documento 3 a color")
 multifuncion.scan("documento a scanear")
-multifuncion.fax("documento de fax")
+multifuncion.fax("documento de fax") 
