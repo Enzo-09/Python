@@ -24,7 +24,7 @@ else:
 
 
 #extra
-pokemon = input("ingresa el nombre del pokemon que desea buscar")
+pokemon = input("ingresa el nombre del pokemon que desea buscar: ")
 response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{pokemon}/")
 data = response.json()
 print("nombre:", data["name"])
@@ -55,3 +55,4 @@ if response.status_code == 200:
             print(f"Error {response.status_code} obteniendo las evoluciones.")
 else:
         print(f"Error {response.status_code} obteniendo las evoluciones.")
+#nota: tuve mucha ayuda para hacer esto porque estaba durisimo
